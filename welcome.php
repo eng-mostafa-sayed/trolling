@@ -20,6 +20,7 @@ if (!isset($_SESSION['username'])) {
 <center>    
 <h1>good morning how are you today? </h1>   
 </center>
+<button type="click" formaction="logout.php" class="button button1">logout</button>
 <a href="logout.php">Logout</a>
 </body>
 </html>
